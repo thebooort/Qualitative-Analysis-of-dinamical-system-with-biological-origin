@@ -1,0 +1,58 @@
+\contentsline {chapter}{Abstract}{i}{Doc-Start}
+\contentsline {chapter}{Agradecimientos}{v}{Doc-Start}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1} Motivaci\IeC {\'o}n y objetivos}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Marco te\IeC {\'o}rico}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Consideraciones previas}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}\IeC {\'O}rbitas y ciclos l\IeC {\'\i }mite}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Teorema de Poincar\IeC {\'e} Bendixson}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Otros criterios \IeC {\'u}tiles}{10}{subsection.2.2.2}
+\contentsline {subsubsection}{Criterio de Dulac}{10}{section*.4}
+\contentsline {subsubsection}{Criterio del gradiente}{11}{section*.5}
+\contentsline {section}{\numberline {2.3}Osciladores fisiol\IeC {\'o}gicos}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}Conceptos B\IeC {\'a}sicos de teor\IeC {\'\i }a de Bifurcaciones}{15}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Clasificaci\IeC {\'o}n de las principales bifurcaciones en sistemas \\ 1-dimensionales y 2-dimensionales}{17}{subsection.2.4.1}
+\contentsline {subsubsection}{Sistemas 1-dimensionales}{17}{section*.6}
+\contentsline {subsubsection}{Sistemas 2-dimensionales}{27}{section*.7}
+\contentsline {section}{\numberline {2.5}Revisitando los osciladores}{39}{section.2.5}
+\contentsline {section}{\numberline {2.6}Poblaci\IeC {\'o}n de gusanos de las p\IeC {\'\i }ceas}{41}{section.2.6}
+\contentsline {section}{\numberline {2.7}Glic\IeC {\'o}lisis celular}{45}{section.2.7}
+\contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis Num\IeC {\'e}rico}{51}{chapter.3}
+\contentsline {section}{\numberline {3.1}Principios generales para el tratamiento num\IeC {\'e}rico de bifurcaciones}{51}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Presentaci\IeC {\'o}n del problema}{52}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}C\IeC {\'a}lculo de soluciones iniciales}{53}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}M\IeC {\'e}todo de continuaci\IeC {\'o}n}{54}{subsection.3.1.3}
+\contentsline {subsubsection}{Planteamiento}{55}{section*.8}
+\contentsline {subsubsection}{Predictores}{56}{section*.9}
+\contentsline {subsubsection}{Correctores}{58}{section*.10}
+\contentsline {subsubsection}{Longitud de paso}{60}{section*.11}
+\contentsline {subsection}{\numberline {3.1.4}Localizaci\IeC {\'o}n de Bifurcaciones}{60}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}M\IeC {\'e}todo de Newton-Chord}{63}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Software utilizado}{64}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Python: Diagramas de Fases}{64}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Geogebra: Visualizaci\IeC {\'o}n din\IeC {\'a}mica}{65}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}AUTO07-p: Estudio de bifurcaciones}{65}{subsection.3.2.3}
+\contentsline {subsubsection}{Algoritmos utilizados}{66}{section*.12}
+\contentsline {subsubsection}{Archivo del problema}{66}{section*.13}
+\contentsline {subsubsection}{Archivo de constantes}{66}{section*.14}
+\contentsline {subsubsection}{Salida de datos}{67}{section*.15}
+\contentsline {subsection}{\numberline {3.2.4}Ejemplo completo guiado: Competici\IeC {\'o}n entre especies}{68}{subsection.3.2.4}
+\contentsline {subsubsection}{Creaci\IeC {\'o}n del c\IeC {\'o}digo}{70}{section*.16}
+\contentsline {subsubsection}{Ejecuci\IeC {\'o}n del c\IeC {\'o}digo}{72}{section*.17}
+\contentsline {section}{\numberline {3.3}Otros diagramas de bifurcaciones}{75}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Van der Pol}{75}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Gusanos de las p\IeC {\'\i }ceas.}{76}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Conclusiones}{79}{chapter.4}
+\contentsline {section}{\numberline {4.1}La matem\IeC {\'a}tica aplicada}{79}{section.4.1}
+\contentsline {section}{\numberline {4.2}El software matem\IeC {\'a}tico}{80}{section.4.2}
+\contentsline {section}{\numberline {4.3}El arte de encontrar par\IeC {\'a}metros}{80}{section.4.3}
+\contentsline {chapter}{\numberline {A}C\IeC {\'o}digos AUTO}{82}{chapter.1}
+\contentsline {section}{\numberline {A.1}C\IeC {\'o}digo del modelo predador presa.}{82}{section.1.1}
+\contentsline {section}{\numberline {A.2}C\IeC {\'o}digo Van der Pol modificado}{84}{section.1.2}
+\contentsline {section}{\numberline {A.3}C\IeC {\'o}digo Van der Pol \IeC {\'e}standar }{85}{section.1.3}
+\contentsline {chapter}{\numberline {B}C\IeC {\'o}digos Python}{86}{chapter.2}
+\contentsline {section}{\numberline {B.1}Dibujar \IeC {\'o}rbitas}{86}{section.2.1}
+\contentsline {section}{\numberline {B.2}Nulclinas y diagrama de fases}{87}{section.2.2}
+\contentsline {chapter}{\numberline {C}C\IeC {\'o}digos Geogebra}{89}{chapter.3}
+\contentsline {section}{\numberline {C.1}Archivo de visualizaci\IeC {\'o}n din\IeC {\'a}mica}{89}{section.3.1}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{89}{lstnumber.-27.13}
