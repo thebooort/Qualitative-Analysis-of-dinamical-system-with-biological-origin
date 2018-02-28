@@ -1,0 +1,47 @@
+
+\addcontentsline{toc}{chapter}{Abstract}
+
+\begin{abstract}
+
+Almost all fields of mathematics have some results that can be applied in Biology. In consequence, the study of the tools usually used in biomathematics is incredibly extensive, making a full and detailed analysis impossible in few pages. 
+In fact, we have decided to focus this work on the theoretical and numerical aspects of two fields (or \textquotedblleft sub-fields\textquotedblright) which can give us a huge amount of information about the cualitative behaviour of our dynamical systems.
+We refer, in this case, to the analysis of dynamical systems through the study of their bifurcations and the theory of cycles and close orbits.
+These concepts are, actually, biological, even if they don't seem that way at the very beginning. The main goal in this work is not only to show how these concepts work in a purely mathematical view but also give real-life cases in Biology where these methods and concepts are widely used in order to understand our enviroment.
+Futhermore, since models mathematicians work with everyday are often treated in a computational way, we offer a brief explanation on how these features should be studied via numerical analysis. We also give some examples and the basic \textquotedblleft eskeleton\textquotedblright our code must have, by considering one of the most used softwares available today: AUTO.
+
+Simultaneously to the exposition of theoretical aspects some biological models are also presented. We talk about heart beats and how early scientists modeled its behaviour. Indeed, we present the Van der Pol model to apply the first theorem presented: Poincaré-Bendixon. 
+Once we have a few notions about closed orbits that will be necesary to understand 2-d bifurcations, we continue  introducing the concept of bifurcation.
+In Van der Pol equations we can observe the creation of an orbit when our parameter is changing. This creation and destruction of orbits, called Hopf bifurcation, it is closely related to the behaviour of jacobian's eigenvalues. We can offer a criterion discriminating between some posible qualitative behaviours this system could have.
+
+Before continuing the theoretical development, two more examples are presented.
+We talk about how dynamical systems can help us to prevent a budworm's population rise in an ecosystem, looking at its behaviour and analizying its relationship with the first, and more studied, 1-d bifurcation: the saddle node bifurcation. 
+Due to the apparition of that bifurcation, we can study how the change of our parameters can affect to this population. For this reason, we look for a theoretical demographic rise, in order to prevent it. 
+Later we present how the Hopf bifurcation theorem and the Poincaré-Bendixon problem can be applied again, but in a quite different situation: the cell cycle. We analize the way cells obtain energy from glucose. We might see this process as a purely aleatory one, but when the equations are written and analyzed, we discover how periodic orbits arise, leading us the idea that we are again in front of an oscillatory biological model.
+Given these examples, and a wide variety of mathematical tools (nulclines, eigenvalues, Jacobians...), we can use them to understand qualitative behaviours.
+
+ We now move on to the numerical analysis.
+As we may think, the majority of qualitative analysis its usually done with computers. Futhermore, even if we have some advanced calculus' theorems, it is usual to use numerical methods, specially in Biology. You may see the examples we show in the work easy to deal with, but nowadays biological models are often huge, with a variety of nonlinearities and equations that don't seem to be intuitive.
+For this reason we introduce in the third chapter a brief look into the theory behind the numerical methods that are used in the study of qualitative behaviours.
+We talk about the selection of initial solutions, and how using them we can create a bifurcation diagram by continuation methods. We expose some of the usual algorithms incorporated by specific numerical software, offering a pair of examples. 
+
+Right after this part we present the three main software packages we use in this work: AUTO, Python and Geogebra.
+Two remarks should be made with respect to AUTO and Geogebra.
+
+We use AUTO directly, as well as a couple of software interpreters of the AUTO engine. This has been done because interpreting these easier files you can get complete AUTO files.
+Althought these codes are simpler, we think it could be also interesting to create original AUTO codes, so we offer a whole description of a predator-prey model coded directly in AUTO.
+In this model we study how two populations interact, where one is the main predator of the other. We consider some fixed parameters and change the value one of them. At this point it is widely known that these populations can evolve in cycles, but, for some ranges of our bifurcation parameter.
+%The answer is no. Of course we gona see cycles in our orbits, but not for all values.
+During certains intervals our model will not exhibit periodic behaviour. This gives rise to the existence of a new Hopf bifurcation. Also, due to our software capabilities we can represent a bifurcation diagram, showing how a Hopf bifurcation it is represented by AUTO (we know by comparison between this one and the generic one presented in chapter 2).
+At this point we are able to analyze numerically a dinamical system in order to understand its cualitative behaviour. To complete our work we get two more bifurcation diagrams related to the previously biological models.
+We come back to Van der Pol's equations where we observe some limitations of AUTO. In this case we  must change a little bit our model to make sure we can obtain a proper and understable bifurcation diagram. Giving this useful variation, that exhibit a very similar behaviour to the original one, we get a good representation that shows huge evidences of the appearance of a Hopf bifurcation .
+Afterward, we return to our budworms model. At some point of our previous theoretical analysis we stated that a fold bifurcation appears during a parameter variation. We study and represent with AUTO our diagram in order to see if this actually happens. 
+Neverless, when we represent our system (we offer the codes of representation and make a little reference to the meaning of the involved constants) it is shown a S-shape diagram, a priori different from our generic theoretical examples of chapter 2. This biestable diagram is ussually obtained in Biology where it is interpeted as a biestable switch. Moreover, if we take a look at the upper part in our diagram, we can observe, locally, the appearance of a fold bifurcation.
+
+Regarding to the third package used in our study, Geogebra, you may notice that it doesn't appear in this paper work. The main reason for that is that Geogebra has been only used to represent dinamic phase portraits during the defense of this work. But, in order to provide all the material, we offer the reader the codes used in the appendix.
+
+These lead us to the final part: conclusions. Here, I talk about my impressions of the bifurcation analysis' world. Not only about how huge and really interesting this field is, but, also about the main difficulties I face up. Specially mentioned are topics like poor software updates or what I called: the art of finding correct parameter values. Furthermore, I talk about how this work, even if it is seen as a normal continuation of cualitative studies in dynamical systems, can take us to the next level, reaching some new areas of mathematics as catastroph theory \cite{Strogatz}. It is also remarkable that, even if it is not mentioned in these pages, the whole work may be used as an introduction to study chaos\cite{Strogatz}, as you can see in many books in the bibliography.
+
+The whole work, it's only a very small look into these huge fields and methods, and, in order to give both analitical and numerical points of view (because of the usual lack of data) we consider only simple biological models. Obviously, that does not mean they are not used or useful, however, in fact, much more complex models are used to obtain more accurate predictions. As we mentioned in conclusions, usually these methods (which parameters' values can be obtained easily) have a huge number of equations and a curious mix between generic bifurcations that made imposible to explain its theoretical bases in such a preliminary work.
+Anyway, the author hope that is this work can be read as an introduction to these fields, a friendly way to go into, plenty of examples and references to learn more about it and recognise the large amount of biological processes that can be described or studied with mathematics.
+
+\end{abstract}
